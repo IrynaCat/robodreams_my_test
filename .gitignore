@@ -37,6 +37,7 @@ indexing
 
 # Don't track workspaces (when users build on the master).
 jobs/**/*workspace
+.idea/*
 
 # Security warning: If secrets are included with your configuration, then an
 # adversary will be able to decrypt all encrypted secrets within Jenkins
